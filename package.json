@@ -1,0 +1,20 @@
+{
+  "name": "Four-Card-Feature-Section",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/babatundelmd/Four-Card-Feature-Section.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/babatundelmd/Four-Card-Feature-Section/issues"
+  },
+  "homepage": "https://github.com/babatundelmd/Four-Card-Feature-Section#readme"
+}
