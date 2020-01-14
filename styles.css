@@ -39,9 +39,11 @@ body{
 
 .main-card{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, 350px);
     grid-template-rows: auto auto auto;
-    grid-column-gap: 5%;
+    grid-column-gap: 3%;
+    grid-row-gap: 1%;
+    margin-top: 3%;
 }
 
 .karma{
@@ -52,12 +54,47 @@ body{
 .main-card div{
     padding: 20px;
     border-radius: 5px;
+    background-color: hsl(0, 0%, 100%);
 }
 
 .main-card div p{
     text-align: left;
+    font-size: 15px;
 }
-.main-card div img{
-    width: 30px;
-    justify-self: end;
+.main-card img{
+    width: 40px;
+
+}
+
+.img-pos{
+    text-align: right;
+}
+
+.card-teambuilder,
+.card-supervisor,
+.karma,
+.calculator{
+    /* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
+    box-shadow: 0 10px 20px hsla(230, 77%, 86%, 0.5), 0 6px 6px rgba(230, 230, 230, 0.23);
+
+}
+
+.card-teambuilder{
+    border-top: 2px solid  hsl(180, 62%, 55%);
+
+}
+
+.card-supervisor{
+    border-top: 2px solid hsl(0, 78%, 62%);
+
+}
+
+.karma{
+    border-top: 2px solid  hsl(34, 97%, 64%);
+
+}
+
+.calculator{
+    border-top: 2px solid hsl(212, 86%, 64%);
+
 }
