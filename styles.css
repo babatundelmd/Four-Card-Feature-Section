@@ -5,18 +5,18 @@ html{
     text-rendering: optimizeLegibility;
 }
 body{
-    padding: 40px;
+    padding: 40px 20px;
     font-family: 'Poppins', sans-serif;
     background-color: hsl(0, 0%, 98%);
-
-
-
 }
+
 .main-wrapper{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 
 }
 .main-wrapper p{
@@ -34,4 +34,30 @@ body{
 }
 .main-wrapper .main-heading{
     font-weight: 100;
+}
+
+
+.main-card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-column-gap: 5%;
+}
+
+.karma{
+  grid-column-start: 2;
+  grid-row-start: row1-start;
+}
+
+.main-card div{
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.main-card div p{
+    text-align: left;
+}
+.main-card div img{
+    width: 30px;
+    justify-self: end;
 }
