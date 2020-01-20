@@ -36,14 +36,13 @@ body{
     letter-spacing: 1px;
 }
 .main-wrapper .main-heading{
-    font-weight: 100;
+   font-weight: lighter;
 }
 
 
 .main-card{
     display: grid;
     grid-template-columns: repeat(3, 350px);
-
     grid-column-gap: 3%;
     grid-row-gap: 3%;
     margin-top: 3%;
@@ -68,7 +67,7 @@ body{
     font-size: 15px;
 }
 .main-card img{
-    width: 40px;
+    width: 60px;
 
 }
 
@@ -85,14 +84,15 @@ body{
 }
 
 .card-supervisor{
-    border-top: 2px solid hsl(0, 78%, 62%);
+    border-top: 2px solid  hsl(180, 62%, 55%);
     grid-column: 1;
     grid-row: 2 / 4;
 
 }
 
 .card-teambuilder{
-    border-top: 2px solid  hsl(180, 62%, 55%);
+    border-top: 2px solid hsl(0, 78%, 62%);
+
     grid-column: 2;
     grid-row: 1 / 3;
 }
