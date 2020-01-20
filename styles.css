@@ -25,9 +25,11 @@ body{
 }
 .main-wrapper p{
     text-align: center;
+    font-weight: 200;
 }
 .main-wrapper h1{
     margin: 0;
+
 }
 
 .sub-heading{
@@ -36,7 +38,7 @@ body{
     letter-spacing: 1px;
 }
 .main-wrapper .main-heading{
-   font-weight: lighter;
+    font-weight: 200;
 }
 
 
@@ -49,7 +51,8 @@ body{
 }
 
 .main-card div{
-    padding: 20px;
+    /* padding: 20px; */
+    padding: 0 25px;
     border-radius: 5px;
     background-color: hsl(0, 0%, 100%);
 }
