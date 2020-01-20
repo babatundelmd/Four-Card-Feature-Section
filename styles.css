@@ -51,8 +51,7 @@ body{
 }
 
 .main-card div{
-    /* padding: 20px; */
-    padding: 0 25px;
+    padding: 0 25px 10px;
     border-radius: 5px;
     background-color: hsl(0, 0%, 100%);
 }
