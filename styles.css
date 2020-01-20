@@ -44,7 +44,7 @@ body{
 
 .main-card{
     display: grid;
-    grid-template-columns: repeat(3, 350px);
+    grid-template-columns: repeat(3, 370px);
     grid-column-gap: 3%;
     grid-row-gap: 3%;
     margin-top: 3%;
@@ -70,6 +70,7 @@ body{
 }
 .main-card img{
     width: 60px;
+    margin-top: 25px;
 
 }
 
@@ -133,7 +134,17 @@ body{
 .karma,
 .calculator{
     margin-top: 20px;
+    width: 100%;
 }
 
+.main-card div{
+   width: 300px;
+   padding: 0 18px;
+
+}
+
+ div.img-pos{
+     padding: 0;
+ }
 
 }
